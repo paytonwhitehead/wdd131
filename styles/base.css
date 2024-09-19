@@ -1,0 +1,46 @@
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 30px;
+    max-width: auto;
+    background-color: rgb(10, 43, 94);
+    color: rgb(204, 20, 20);
+
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 30px;
+    max-width: auto;
+    background-color: rgb(10, 43, 94);
+    color: rgb(204, 20, 20);
+}
+
+header {
+    grid-column: span 3;
+    background-color: lightgrey;
+    grid-row: 1;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    background-color: darkgrey;
+    padding: 31px
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+footer {
+    span: 3;
+}

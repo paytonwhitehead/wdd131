@@ -134,6 +134,7 @@ main {
     grid-column: 1 / 4;
     grid-row: 3;
     text-align: center;
+    text-decoration:underline;
     margin-bottom: 0;
 }
 

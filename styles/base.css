@@ -157,7 +157,7 @@ main {
     border-radius: 30px;
     display: grid;
     background-color: aliceblue;
-    height: 90%;
+    max-height: 94%;
 }
 
 .card2 h2{
